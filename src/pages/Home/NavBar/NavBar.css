@@ -3,3 +3,18 @@
     width: 1440px;
     height: 72px;
 }
+
+@media (max-width:576px) {
+    .top-height {
+        height: 24px;
+    }
+
+    .join-btn {
+        color: white;
+        border: 2px solid white;
+        position: absolute;
+        top: 150%;
+        right: 0;
+        
+    }
+}
