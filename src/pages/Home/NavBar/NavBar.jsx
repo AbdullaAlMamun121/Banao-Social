@@ -1,10 +1,11 @@
 import React from 'react';
 import logo from '../../../assets/logo.png'
+import './NavBar.css';
 const NavBar = () => {
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
-                <div className="container text-center">
+                <div className="Container text-center">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
