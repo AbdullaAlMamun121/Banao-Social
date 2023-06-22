@@ -1,0 +1,13 @@
+/* Styles for small devices */
+@media (max-width: 767px) {
+    .large-device {
+      display: none;
+    }
+  }
+  
+  /* Styles for large devices */
+  @media (min-width: 768px) {
+    .small-device {
+      display: none;
+    }
+  }

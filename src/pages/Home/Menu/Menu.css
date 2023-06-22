@@ -31,3 +31,16 @@
     background-color: #ccc;
     /* Gray color */
 }
+
+/* for small device */
+@media (max-width:767px) {
+    .large-device {
+        display: none;
+    }
+}
+/* for large device */
+@media (min-width: 768px) {
+    .small-device{
+        display: none;
+    }
+}

@@ -10,32 +10,45 @@ const Menu = () => {
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">All Post(32)</a>
                         </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Article</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Event</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Education</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Job</a>
-                        </li>
+                        <span className='nav large-device'>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Article</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Event</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Education</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#">Job</a>
+                            </li>
+                        </span>
                     </ul>
                 </div>
                 <div className="p-2 nav-pills">
                     <ul className="nav">
-                        <li className="nav-item me-3">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Write a Post</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </li>
-                        <li className="nav-item">
+                        <span>
+                            {/* for small */}
+                            <li className="nav-item me-3 large-device">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Write a Post</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </li>
+                            {/* for large */}
+                            <li className="nav-item me-3 small-device">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Filter:All</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </li>
+                        </span>
+                        <li className="nav-item large-device">
                             <a className="nav-link active" href="#"> <img src={user} alt="" /> Join Group</a>
 
                         </li>
